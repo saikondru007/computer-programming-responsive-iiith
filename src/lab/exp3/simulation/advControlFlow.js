@@ -171,24 +171,25 @@ window.view = {
 		{
 			this.displayLoop('forLoopContent', 'codeContentFor1')
 		}
-		if(selected_loop === 'for' && inputValue >20 && !isNaN(model.inp))
-		{
-			alert("enter values in between 1-20");
-		}
 		
 		if (selected_loop === 'while' && inputValue !== '' && !isNaN(model.inp))
 		{
 			this.displayLoop('whileLoopContent', 'codeContentWhile1')
 		}
-				if(selected_loop === 'while' && inputValue >20 && !isNaN(model.inp))
-		{
-			alert("enter values in between 1-20");
-		}
+
 		if (selected_loop === 'do-while' && inputValue !== '' && !isNaN(model.inp))
 		{
 		 	this.displayLoop('dowhileLoopContent', 'codeContentDoWhile1')
 		}
-				if(selected_loop === 'do-while' && inputValue >20 && !isNaN(model.inp))
+				if(selected_loop === 'for' && inputValue >20 && !isNaN(model.inp))
+		{
+			alert("enter values in between 1-20");
+		}
+					if(selected_loop === 'while' && inputValue >20 && !isNaN(model.inp))
+		{
+			alert("enter values in between 1-20");
+		}
+						if(selected_loop === 'do-while' && inputValue >20 && !isNaN(model.inp))
 		{
 			alert("enter values in between 1-20");
 		}
